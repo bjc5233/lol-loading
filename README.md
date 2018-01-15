@@ -8,4 +8,4 @@
 
 
 ## 预览
-<div align=center><img src="https://github.com/bjc5233/lol-loading/raw/master/resources/demo.png"/></div>
+<div align=center><img src="https://github.com/bjc5233/lol-loading/raw/master/resources/demo.jpg"/></div>
