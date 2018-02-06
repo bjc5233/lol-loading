@@ -1,9 +1,13 @@
 @echo off& call load.bat _getDeskWallpaperPath& call loadE.bat imagemagick-convert zipMini elevate& setlocal enabledelayedexpansion
 ::说明
-::  修改LOL载入界面背景为指定壁纸
-::调用方式
-::  A:不带参数 - 使用当前桌面壁纸
-::  B:带参数 - 使用指定图片
+::  更改LOL载入界面背景
+::参数
+::  [imgPath]
+::      imgPath - 图片地址；无则使用当前桌面壁纸
+::external
+::  date       2018-02-06 23:05:10
+::  face       ●︿●
+::  weather    shanghai 晴 4℃/-2℃ 北风
 set lolPath=C:\Program Files\腾讯游戏\英雄联盟
 if "%~1" EQU "" (
 	(%_call% ("wallpaperPath") %_getDeskWallpaperPath%)
